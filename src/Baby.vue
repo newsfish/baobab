@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="baby">
         <el-container>
             <!-- 导航栏 -->
             <el-header>
@@ -18,12 +18,14 @@
 
 <script>
 import NavBar from './components/NavBar.vue'
+// import SideBar from './components/StockSideBar.vue'
 import "./assets/font-awesome/css/font-awesome.min.css"
 
 export default {
   name: 'App',
   components: {
     NavBar
+    // SideBar
   }
 }
 </script>
